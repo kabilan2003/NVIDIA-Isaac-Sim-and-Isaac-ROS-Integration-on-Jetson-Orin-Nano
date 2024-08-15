@@ -1,7 +1,3 @@
-Here's the updated README with the additional command included in the third step for AprilTag detection:
-
----
-
 # NVIDIA Isaac Sim and Isaac ROS Integration on Jetson Orin Nano
 
 This repository provides a comprehensive guide on integrating NVIDIA Isaac Sim with Isaac ROS on the Jetson Orin Nano for AprilTag following. This setup enables real-time AprilTag detection and dynamic robot control, enhancing robotics workflows.
@@ -67,6 +63,8 @@ This project demonstrates how to:
 
 3. **Visualize in RViz:**
    - Start RViz to visualize AprilTag detections and robot movements:
+     ![Screenshot from 2024-08-14 18-24-47](https://github.com/user-attachments/assets/ed34fb93-5625-4605-875c-a296b5b33084)
+    Figure 3
      ```bash
      rviz2
      ```

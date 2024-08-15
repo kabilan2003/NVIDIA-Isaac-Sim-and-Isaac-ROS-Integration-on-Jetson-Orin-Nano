@@ -66,6 +66,36 @@ Figure 2
 - **Figure 2**: Shows the Isaac Sim with apriltag.
 - **Figure 3**: Shows the data flow from Isaac Sim to Isaac ROS and visualization in RViz.
 
+## Launching Commands
+
+To launch the simulation and data processing, use the following commands:
+
+1. **Start Isaac Sim:**
+    ```bash
+    isaac-sim --start
+    ```
+
+2. **Clone the Isaac ROS AprilTag Repository:**
+
+    Before launching the nodes, ensure you have the Isaac ROS AprilTag package. Clone the repository using:
+    ```bash
+    git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag.git
+    ```
+    Then, navigate to the cloned repository directory if needed.
+
+3. **Launch Isaac ROS Nodes:**
+    ```bash
+    ros2 launch isaac_ros_apriltag isaac_ros_apriltag_isaac_sim_pipeline.launch.py
+    ```
+
+4. **Start RViz for Visualization:**
+    ```bash
+    rviz2
+    ```
+
+
+
+
 ## Special Thanks
 
 Special thanks to Ninad for the incredible guidance on implementing this solution.

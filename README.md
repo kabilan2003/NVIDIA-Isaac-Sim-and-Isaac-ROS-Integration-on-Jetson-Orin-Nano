@@ -16,4 +16,6 @@ This project demonstrates how to:
    2. NVIDIA Isaac Sim: For simulating the robotics environment.
    3. Isaac ROS: Installed on the Jetson Orin Nano.
    4. Hardware-in-the-Loop (HIL) Setup: For connecting the Jetson Orin Nano with a laptop.
+
+      ![Image segmentation(4)](https://github.com/user-attachments/assets/57f29373-cb81-42e2-b4e2-68bc84ad5ded)
       

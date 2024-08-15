@@ -23,7 +23,7 @@ This project demonstrates how to:
 - **Isaac ROS**: Installed on the Jetson Orin Nano.
 - **Hardware-in-the-Loop (HIL) Setup**: For connecting the Jetson Orin Nano with a laptop.
   ![Image segmentation(4)](https://github.com/user-attachments/assets/4bc1b81a-ce2f-44b8-9e28-24491ab53482)
-
+                                        Figure 4
 ## Installation and Setup
 
 ### 1. Setting Up Jetson Orin Nano
@@ -50,15 +50,16 @@ This project demonstrates how to:
 
 3. **Visualize in RViz**: Subscribe to the relevant ROS topics in RViz to view AprilTag detections.
 
+![Screenshot from 2024-08-09 15-56-43](https://github.com/user-attachments/assets/3730ff97-e2ed-4e6a-847e-9223753c9026)
+                                    Figure 5
 ### 4. Implementing Hardware-in-the-Loop (HIL) Testing
 
 1. **Connect to Laptop**: Set up HIL testing to link the Jetson Orin Nano with a laptop for enhanced validation.
 
 ## Figures
 
-- **Figure 4**: Shows the data flow from Isaac Sim to Isaac ROS and visualization in RViz.
-- **Figure 5**: Illustrates the setup for Isaac ROS on the Jetson Orin Nano using JetPack 6.
-
+- **Figure 4**: Illustrates the setup for Isaac ROS on the Jetson Orin Nano using JetPack 6.
+- **Figure 5**: Shows the data flow from Isaac Sim to Isaac ROS and visualization in RViz.
 ## Special Thanks
 
 Special thanks to Ninad for the incredible guidance on implementing this solution.
